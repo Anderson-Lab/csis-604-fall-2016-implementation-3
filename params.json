@@ -1,0 +1,6 @@
+{
+  "name": "CSIS-604-fall-2016-implementation-3",
+  "tagline": "",
+  "body": "For this assignment you will experiment with iterative graph processing.\r\n\r\n# Part 1 (20%)\r\nDownload and install http://giraph.apache.org/, which is an open source implementation of Google's Pregel. Show that everything is working correctly, but running the SimpleShortestPathsComputation sample (http://giraph.apache.org/quick_start.html).\r\n\r\n# Part 2 (80%)\r\nNow we are going to implement Page Rank on giraph! Page Rank is one of the most famous algorithm. Here is a walk through of the theory of the algorithm and it even includes an implementation in Python: http://www.ccs.northeastern.edu/home/daikeshi/notes/PageRank.pdf. Your task is to port this algorithm to work on giraph. Three is a partial tutorial that will help you start: http://giraph.apache.org/pagerank.html.",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
