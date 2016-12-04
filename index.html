@@ -42,14 +42,20 @@
         <p>For this assignment you will experiment with iterative graph processing.</p>
 
 <h1>
-<a id="part-1-20" class="anchor" href="#part-1-20" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Part 1 (20%)</h1>
+<a id="part-1-50" class="anchor" href="#part-1-50" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Part 1 (50%)</h1>
 
 <p>Download and install <a href="http://giraph.apache.org/">http://giraph.apache.org/</a>, which is an open source implementation of Google's Pregel. Show that everything is working correctly, but running the SimpleShortestPathsComputation sample (<a href="http://giraph.apache.org/quick_start.html">http://giraph.apache.org/quick_start.html</a>).</p>
 
 <h1>
-<a id="part-2-80" class="anchor" href="#part-2-80" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Part 2 (80%)</h1>
+<a id="part-2-50" class="anchor" href="#part-2-50" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Part 2 (50%)</h1>
 
-<p>Now we are going to implement Page Rank on giraph! Page Rank is one of the most famous algorithm. Here is a walk through of the theory of the algorithm and it even includes an implementation in Python: <a href="http://www.ccs.northeastern.edu/home/daikeshi/notes/PageRank.pdf">http://www.ccs.northeastern.edu/home/daikeshi/notes/PageRank.pdf</a>. Your task is to port this algorithm to work on giraph. Three is a partial tutorial that will help you start: <a href="http://giraph.apache.org/pagerank.html">http://giraph.apache.org/pagerank.html</a>.</p>
+<p>Now we are going to implement Page Rank on giraph! Page Rank is one of the most famous algorithm. Here is a walk through of the theory of the algorithm and it even includes an implementation in Python: <a href="http://www.ccs.northeastern.edu/home/daikeshi/notes/PageRank.pdf">http://www.ccs.northeastern.edu/home/daikeshi/notes/PageRank.pdf</a>. </p>
+
+<p>Three is a partial tutorial that will help you started: <a href="http://giraph.apache.org/pagerank.html">http://giraph.apache.org/pagerank.html</a>.</p>
+
+<p>This video is also good to watch in addition to lots of other good online resources: <a href="https://www.youtube.com/watch?v=kq_Rt6hNvFE">https://www.youtube.com/watch?v=kq_Rt6hNvFE</a></p>
+
+<p>Update: So it turns out giraph does have a working pagerank algorithm and benchmark. Instead of writing it from scratch then, once you get this example working in your setup, do a write-up about the giraph specific algorithm itself. You can find the code in the source code for the examples, which should be something like: giraph-examples/src/main/java/org/apache/giraph/examples/SimplePageRankComputation.java.</p>
       </section>
       <footer>
         <p>Project maintained by <a href="https://github.com/Anderson-Lab">Anderson-Lab</a></p>
